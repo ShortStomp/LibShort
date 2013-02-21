@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="rendering_service.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp" />
+    <ClCompile Include="input_service.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite_component.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="component_factory.cpp">
+      <Filter>data\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="loading_service.cpp">
+      <Filter>assetio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="services">
+      <UniqueIdentifier>{6b31de0a-e2b1-4210-b896-7c6db029a891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{bb644d8b-692c-42fd-9218-07c078b376b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\factory">
+      <UniqueIdentifier>{aa9f07bf-2550-47fc-a905-d41ab3c8afd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{62e09226-ae6d-4703-93d5-8cf11139f438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="levels">
+      <UniqueIdentifier>{8c5a4d62-7e3a-48f0-8371-9d6fc04be721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assetio">
+      <UniqueIdentifier>{c12cad60-910b-4aa5-ab81-2dc779e8220d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assetio\exceptions">
+      <UniqueIdentifier>{ec267e79-5d51-441b-81c6-b6862a472ed6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="input_service.hpp">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="rendering_service.hpp">
+      <Filter>services</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.hpp" />
+    <ClInclude Include="level.hpp">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.hpp">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="component.hpp">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_component.hpp">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="component_factory.hpp">
+      <Filter>data\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="component_type.hpp">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="loading_service.hpp">
+      <Filter>assetio</Filter>
+    </ClInclude>
+    <ClInclude Include="parsing_exception.hpp">
+      <Filter>assetio\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="unexpected_end_of_file_exception.hpp">
+      <Filter>assetio\exceptions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\levels\level1.txt">
+      <Filter>levels</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\assets\enemies.gif">
+      <Filter>assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

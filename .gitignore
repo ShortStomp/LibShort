@@ -2,6 +2,10 @@
 *.slo
 *.lo
 *.o
+*./src/x64/
+*.ilk
+*.exe
+
 
 # Compiled Dynamic libraries
 *.so
@@ -11,3 +15,8 @@
 *.lai
 *.la
 *.a
+
+# VS files
+*.opensdf
+*.sdf
+*.suo
