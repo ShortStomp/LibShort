@@ -2,9 +2,13 @@
 *.slo
 *.lo
 *.o
-*./src/x64/
+*.tlog
+*.log
+*.obj
 *.ilk
 *.exe
+*.idb
+vc110.pdb
 
 
 # Compiled Dynamic libraries
